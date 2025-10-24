@@ -22,7 +22,8 @@
   - Created  : 2025/10/24
   - Modified : 2025/10/24
 -->
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="160" viewBox="0 0 400 160" preserveAspectRatio="xMidYMid meet">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="140" viewBox="0 0 400 140" preserveAspectRatio="xMidYMid meet">
     <defs>
         <!-- Light theme gradient -->
         <linearGradient id='text-gradient-mobile-light' x1='0%' y1='0%' x2='100%' y2='0%'>
@@ -62,8 +63,8 @@
       fill='url(#text-gradient-mobile-light)'
       letter-spacing='0em'>Leviftas</text>
 
-    <!-- Subtitle - better line breaks for mobile -->
-    <text x='20' y='90'
+    <!-- Subtitle - compact layout -->
+    <text x='20' y='85'
       class='subtitle-primary'
       font-size='16'
       font-weight='600'
@@ -72,21 +73,21 @@
       fill='#1d1d1f'
       letter-spacing='0.011em'>A distributed and modular SDK for centralized</text>
 
-    <text x='20' y='115'
-      class='subtitle-primary'
+    <text x='20' y='105'
       font-size='16'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
-      fill='#1d1d1f'
-      letter-spacing='0.011em'>data platforms,</text>
+      letter-spacing='0.011em'>
+      <tspan class='subtitle-primary' fill='#1d1d1f'>data platforms, </tspan>
+      <tspan class='subtitle-secondary' fill='#86868b'>built on Django REST</tspan></text>
 
-    <text x='20' y='140'
+    <text x='20' y='125'
       class='subtitle-secondary'
       font-size='16'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       fill='#86868b'
-      letter-spacing='0.011em'>built on Django REST Framework.</text>
+      letter-spacing='0.011em'>Framework.</text>
 </svg>
