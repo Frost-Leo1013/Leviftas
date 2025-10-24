@@ -28,11 +28,6 @@ Banner image for the Leviftas project
             <stop offset='0%' style='stop-color:#022640'/>
             <stop offset='80%' style='stop-color:#5786AB'/>
         </linearGradient>
-
-        <linearGradient id='description-gradient' x1='0%' y1='0%' x2='100%' y2='0%'>
-            <stop offset='0%' style='stop-color:#000000'/>
-            <stop offset='50%' style='stop-color:#4A4A4A'/>
-        </linearGradient>
     </defs>
 
     <text x='20' y='45'
@@ -44,11 +39,12 @@ Banner image for the Leviftas project
       letter-spacing='0em'>Leviftas</text>
 
     <text x='20' y='85'
-      font-size='16'
+      font-size='21'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
-      fill='url(#description-gradient)'
-      letter-spacing='0em'>A distributed and modular SDK for centralized data platforms, built on Django REST Framework.</text>
+      fill='#1d1d1f'
+      letter-spacing='0.011em'>A distributed and modular SDK for centralized data platforms,
+      <tspan fill='#86868b'>built on Django REST Framework.</tspan></text>
 
 </svg>
