@@ -22,5 +22,5 @@
   - Modified : 2025/10/24
 -->
 
-<a href="https://github.com/Leviftas-Studio/Leviftas"><img src="docs/assets/images/readme/banner.svg" alt="Leviftas" style="vertical-align: text-bottom; margin: 0; padding: 0;"></a>
+<a href="https://github.com/Leviftas-Studio/Leviftas"><img src="docs/assets/images/readme/banner.png" alt="Leviftas" style="vertical-align: text-bottom; margin: 0; padding: 0;"></a>
 
