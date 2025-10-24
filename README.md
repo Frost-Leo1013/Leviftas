@@ -22,5 +22,10 @@
   - Modified : 2025/10/24
 -->
 
-<a href="https://github.com/Leviftas-Studio/Leviftas"><img src="docs/assets/images/readme/banner.svg" alt="Leviftas"></a>
+<a href="https://github.com/Leviftas-Studio/Leviftas">
+  <picture>
+    <source media="(max-width: 768px)" srcset="docs/assets/images/readme/banner-mobile.svg">
+    <img src="docs/assets/images/readme/banner-desktop.svg" alt="Leviftas" width="100%">
+  </picture>
+</a>
 
