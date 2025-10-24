@@ -40,7 +40,7 @@ Banner image for the Leviftas project
       letter-spacing='0em'>Leviftas</text>
 
     <text x='20' y='100'
-      font-size='21'
+      font-size='17'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
