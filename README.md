@@ -25,7 +25,7 @@
 <a href="https://github.com/Leviftas-Studio/Leviftas">
   <picture>
     <source media="(max-width: 768px)" srcset="docs/assets/images/readme/banner-mobile.svg">
-    <img src="docs/assets/images/readme/banner-desktop.svg" alt="Leviftas" width="100%">
+    <img src="docs/assets/images/readme/banner-desktop.svg" alt="Leviftas - A distributed and modular SDK for centralized data platforms" width="100%">
   </picture>
 </a>
 

@@ -13,27 +13,53 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 
-  banner-desktop.svg - Desktop version of Leviftas banner
-  Optimized for screens wider than 768px
+  banner-desktop.svg
+
+  Desktop version of Leviftas banner
+  Optimized for screens wider than 768px with dark mode support
 
   - Author   : FrostLeo <frostleo.dev@gmail.com>
   - Created  : 2025/10/24
   - Modified : 2025/10/24
 -->
+
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="140" viewBox="0 0 1000 140" preserveAspectRatio="xMidYMid meet">
     <defs>
-        <linearGradient id='text-gradient' x1='0%' y1='0%' x2='100%' y2='0%'>
+        <!-- Light theme gradient -->
+        <linearGradient id='text-gradient-light' x1='0%' y1='0%' x2='100%' y2='0%'>
             <stop offset='0%' style='stop-color:#022640'/>
             <stop offset='95%' style='stop-color:#5786AB'/>
         </linearGradient>
+
+        <!-- Dark theme gradient -->
+        <linearGradient id='text-gradient-dark' x1='0%' y1='0%' x2='100%' y2='0%'>
+            <stop offset='0%' style='stop-color:#e4f6f0'/>
+            <stop offset='31%' style='stop-color:#9dcfca'/>
+            <stop offset='68%' style='stop-color:#6b95ac'/>
+            <stop offset='100%' style='stop-color:#45657d'/>
+        </linearGradient>
     </defs>
 
+    <style>
+        @media (prefers-color-scheme: dark) {
+            .main-title { fill: url(#text-gradient-dark); }
+            .subtitle-primary { fill: #f5f5f7; }
+            .subtitle-secondary { fill: #a1a1a6; }
+        }
+        @media (prefers-color-scheme: light) {
+            .main-title { fill: url(#text-gradient-light); }
+            .subtitle-primary { fill: #1d1d1f; }
+            .subtitle-secondary { fill: #86868b; }
+        }
+    </style>
+
     <text x='20' y='55'
+      class='main-title'
       font-size='56'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
-      fill='url(#text-gradient)'
+      fill='url(#text-gradient-light)'
       letter-spacing='0em'>Leviftas</text>
 
     <text x='20' y='100'
@@ -41,7 +67,8 @@
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
-      fill='#1d1d1f'
-      letter-spacing='0.011em'>A distributed and modular SDK for centralized data platforms,
-      <tspan fill='#86868b'>built on Django REST Framework.</tspan></text>
+      letter-spacing='0.011em'>
+      <tspan class='subtitle-primary' fill='#1d1d1f'>A distributed and modular SDK for centralized data platforms,</tspan>
+      <tspan class='subtitle-secondary' fill='#86868b'> built on Django REST Framework.</tspan>
+    </text>
 </svg>
