@@ -66,16 +66,16 @@
     <!-- Subtitle - compact layout -->
     <text x='20' y='85'
       class='subtitle-primary'
-      font-size='16'
-      font-weight='500'
+      font-size='15'
+      font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       fill='#1d1d1f'
       letter-spacing='0.011em'>A distributed and modular SDK for centralized</text>
 
     <text x='20' y='105'
-      font-size='16'
-      font-weight='500'
+      font-size='15'
+      font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       letter-spacing='0.011em'>
