@@ -24,22 +24,14 @@ Banner image for the Leviftas project
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="60" viewBox="0 0 1000 60" preserveAspectRatio="xMidYMid meet">
     <defs>
-        <linearGradient id="background-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset='0%' style='stop-color:#D4EAF6'/>
-            <stop offset='75%' style='stop-color:#F9F9F9'/>
-            <stop offset='100%' style='stop-color:#FFFFFF'/>
-        </linearGradient>
-
         <linearGradient id='text-gradient' x1='0%' y1='0%' x2='100%' y2='0%'>
             <stop offset='0%' style='stop-color:#022640'/>
             <stop offset='100%' style='stop-color:#5786AB'/>
         </linearGradient>
     </defs>
 
-    <rect width='1000' height='60' fill='url(#background-gradient)'/>
-
-    <text x='20' y='40'
-      font-size='36'
+    <text x='20' y='45'
+      font-size='48'
       font-weight='600'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
