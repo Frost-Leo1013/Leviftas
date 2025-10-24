@@ -80,14 +80,5 @@
       text-anchor='start'
       letter-spacing='0.011em'>
       <tspan class='subtitle-primary' fill='#1d1d1f'>data platforms, </tspan>
-      <tspan class='subtitle-secondary' fill='#86868b'>built on Django REST</tspan></text>
-
-    <text x='20' y='125'
-      class='subtitle-secondary'
-      font-size='16'
-      font-weight='600'
-      font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
-      text-anchor='start'
-      fill='#86868b'
-      letter-spacing='0.011em'>Framework.</text>
+      <tspan class='subtitle-secondary' fill='#86868b'>built on Django REST Framework.</tspan></text>
 </svg>
