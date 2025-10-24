@@ -67,7 +67,7 @@
     <text x='20' y='85'
       class='subtitle-primary'
       font-size='16'
-      font-weight='600'
+      font-weight='500'
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       fill='#1d1d1f'
