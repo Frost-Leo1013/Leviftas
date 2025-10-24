@@ -26,7 +26,7 @@ Banner image for the Leviftas project
     <defs>
         <linearGradient id='text-gradient' x1='0%' y1='0%' x2='100%' y2='0%'>
             <stop offset='0%' style='stop-color:#022640'/>
-            <stop offset='100%' style='stop-color:#5786AB'/>
+            <stop offset='80%' style='stop-color:#5786AB'/>
         </linearGradient>
     </defs>
 
