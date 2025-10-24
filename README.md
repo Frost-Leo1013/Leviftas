@@ -15,8 +15,6 @@
 
   README.md
 
-  
-
   - Author   : FrostLeo <frostleo.dev@gmail.com>
   - Created  : 2025/10/24
   - Modified : 2025/10/24
@@ -24,8 +22,8 @@
 
 <a href="https://github.com/Leviftas-Studio/Leviftas">
   <picture>
-    <source media="(max-width: 768px)" srcset="docs/assets/images/readme/banner-mobile.svg">
-    <img src="docs/assets/images/readme/banner-desktop.svg" alt="Leviftas - A distributed and modular SDK for centralized data platforms" width="100%">
+    <source media="(max-width: 768px)" srcset="docs/assets/images/readme/mobile/mobile-banner.svg">
+    <img src="docs/assets/images/readme/desktop/desktop-banner.svg" alt="Leviftas - A distributed and modular SDK for centralized data platforms" width="100%">
   </picture>
 </a>
 
