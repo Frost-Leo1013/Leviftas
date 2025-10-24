@@ -70,7 +70,7 @@
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       fill='#1d1d1f'
-      letter-spacing='0.011em'>A distributed and modular SDK for</text>
+      letter-spacing='0.011em'>A distributed and modular SDK for centralized</text>
 
     <text x='20' y='115'
       class='subtitle-primary'
@@ -79,7 +79,7 @@
       font-family='SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif'
       text-anchor='start'
       fill='#1d1d1f'
-      letter-spacing='0.011em'>centralized data platforms,</text>
+      letter-spacing='0.011em'>data platforms,</text>
 
     <text x='20' y='140'
       class='subtitle-secondary'
